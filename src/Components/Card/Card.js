@@ -3,7 +3,7 @@ function Card(props) {
 		<div style={{background:"none", border:"1px solid #55f7f7", borderRadius:"10px"}} className="card text-light p-4 h-100">
 			<div className="d-flex justify-content-between">
 			<i style={{fontSize:"35px", color:"#fc6759"}} className="ri-folder-line icon-size cardFolder"></i>
-			<a href={props.link}><i style={{fontSize:"35px", }} className="ri-external-link-line cardLinkIcon icon-size"></i></a>
+			<a style={{textDecoration:"none"}} href={props.link}><i style={{fontSize:"35px", color: "white"}} className="ri-external-link-line cardLinkIcon icon-size"></i></a>
 			
 			</div>
 			<div className="card-body p-0 mb-2">

@@ -1,17 +1,20 @@
 import Container from "../../Components/Container/Container";
 import NavbarProjects from "../../Components/Navbar/Projects/NavbarProject";
+import Footer from "../../Components/Footer/Footer";
 import Particles from "../../Components/Particles/Particles";
 import Card from "../../Components/Card/Card";
 import webSites from "../../key/projects.json";
+import { useEffect } from "react";
 
 
 
 function Projects() {
 
+    useEffect(()=>{
+    window.scrollTo(0,0);
+    })
+
 var web = webSites[2].data;
-
-console.log(web);
-
 
     return ( 
         <div>
@@ -35,7 +38,7 @@ console.log(web);
 
 return(
     <div className="col-12 col-md-6 col-lg-4 mb-3">
-    <Card title={data.Name} about={data.About} tech1={data.tech.tech1} tech2={data.tech.tech2} tech3={data.tech.tech3} />
+    <Card link={data.link} title={data.Name} about={data.About} tech1={data.tech.tech1} tech2={data.tech.tech2} tech3={data.tech.tech3} />
     </div>
 ) 
 
@@ -52,7 +55,7 @@ return(
     
 </div>
 
-
+<Footer />
 <Particles />
     </Container>
     </div>

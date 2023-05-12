@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+
 import Container from '../../Components/Container/Container';
 import NavbarHome from '../../Components/Navbar/Home/NavbarHome';
 import Buttons from '../../Components/Buttons/Buttons';
@@ -9,9 +11,10 @@ import webSites from "../../key/projects.json";
 function Home() {
 var web = webSites[2].data.slice(0,3);
 
+useEffect(()=>{
+    window.scrollTo(0,0);
 
-
-
+});
 
 	return (
 		<div>
@@ -72,7 +75,7 @@ var web = webSites[2].data.slice(0,3);
 
 return(
     <div className="col-12 col-md-6 col-lg-4 mb-3">
-    <Card title={data.Name} about={data.About} tech1={data.tech.tech1} tech2={data.tech.tech2} tech3={data.tech.tech3} />
+    <Card link={data.link} title={data.Name} about={data.About} tech1={data.tech.tech1} tech2={data.tech.tech2} tech3={data.tech.tech3} />
     </div>
 ) 
 
