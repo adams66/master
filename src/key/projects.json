@@ -1,0 +1,67 @@
+[
+    {
+        "type": "header",
+        "version": "5.1.1",
+        "comment": "Export to JSON plugin for PHPMyAdmin"
+    },
+    {
+        "type": "database",
+        "name": "u562489212_Database1492"
+    },
+    {
+        "type": "table",
+        "name": "company",
+        "database": "u562489212_Database1492",
+        "data": [
+            {
+                "id": "1",
+                "Name": "Thrive Family Counseling ",
+                "About": "A counseling website I created using WordPress using custom CSS, and custom animations.",
+                "link": "https://thrivefamilycounseling.com/",
+                "tech": {"tech1": "Html","tech2":"CSS","tech3": "Wordpress"}
+            },
+            {
+                "id": "2",
+                "Name": "Beehive",
+                "About": "This banking website needed custom php for dynamic data from a database, and API integrations.",
+                "link": "https://beehive.org/",
+                "tech": {"tech1": "Html","tech2" : "CSS","tech3": "PHP"}
+            },
+            {
+                "id": "3",
+                "Name": "Hemming Village ",
+                "About": "A website I created using WordPress. Involved custom html and CSS. This website site uses unique CSS for background design.",
+                "link": "https://hemmingvillage.com/",
+                "tech": {"tech1": "Html","tech2" : "CSS","tech3":"Wordpress"}
+            },
+            {
+                "id": "4",
+                "Name": "Solve Pest Pros",
+                "About": "A pest control website I created using WordPress. Involved custom html and CSS. This one also needed JavaScript for interactive photos.",
+                "link": "https://solvepestpros.com/",
+                "tech": {"tech1": "Html","tech2" : "CSS","tech3": "Javascript"}
+            },
+            {
+                "id": "5",
+                "Name": "Carl Reynolds",
+                "About": "This lawyer site includes CSS, animations for landing pages and WordPress plugins. Fun project!",
+                "link": "https://injuriesarepersonal.com/",
+                "tech": {"tech1": "Html","tech2" : "CSS","tech3": "Wordpress"}
+            },
+            {
+                "id": "6",
+                "Name": "Yoder Smokers",
+                "About": "A pellet grill website that I helped maintain using WordPress, custom CSS, and custom animations and php for automations.",
+                "link": "https://www.yodersmokers.com",
+                "tech": {"tech1": "Html","tech2" : "CSS","tech3": "Wordpress"}
+            },
+            {
+                "id": "7",
+                "Name": "Delano Distributors",
+                "About": "A BBQ website that I helped maintain using WordPress, custom CSS, and custom animations and php for automations.",
+                "link": "https://www.delanodistributors.com",
+                "tech": {"tech1": "Html","tech2" : "CSS","tech3": "Wordpress"}
+            }
+        ]
+    }
+]
