@@ -31,7 +31,7 @@ useEffect(()=>{
 							problem that we face has the opportunity to be fixed.
 						</p>
 						<div>
-							<Buttons url="#projects" text="Check out My Projects" />
+						<a className='btn btn-theme p-custom fw-bold' href="#projects">Check out my projects</a>
 						</div>
 					</div>
 				</div>

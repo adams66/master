@@ -60,7 +60,7 @@ function Navbar() {
       </li>
 
 	  <li className="nav-item">
-       <Buttons text="Resume" />
+			<a href="./Resume.pdf" className="btn btn-theme p-custom fw-bold">Resume</a>
       </li>
 
 
