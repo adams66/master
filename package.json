@@ -1,6 +1,5 @@
 {
   "name": "app",
-  "homepage": "https://dal-10.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
