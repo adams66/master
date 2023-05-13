@@ -14,13 +14,16 @@ function Navbar() {
 
 			if(open){
 				navLink.classList.add("open");
+		
 				navbarBrand.classList.add("d-none");
 				body.style.overflow = "hidden";
+				
 			}
 			else{
 				navLink.classList.remove("open");
 				navbarBrand.classList.remove("d-none");
-				body.style.overflow = "visible";
+				body.style.overflow = "visible";	
+		
 			}
 
 		
