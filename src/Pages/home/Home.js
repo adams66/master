@@ -20,7 +20,6 @@ useEffect(()=>{
 		<div>
 		<NavbarHome />
 		<Container>
-		
 				<div style={{height: "100vh"}} className="row p-2 d-flex ">
 					<div className="col-12 d-flex flex-column justify-content-center ">
 						<h6 className="mb-4" style={{color: "#fc6759", fontWeight:"bolder",}}>Hi, my name is</h6>
