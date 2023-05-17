@@ -1,0 +1,83 @@
+.icon-size {
+	font-size: 35px;
+}
+
+.number-size {
+	font-size: 1.4rem;
+	font-weight: bolder;
+}
+.footerLine{
+
+height: 100px;
+left: 50%;
+width: 4px;
+
+}
+
+.resetButton{
+	background-color: transparent;
+	color:white;
+	border: none;
+}
+
+
+
+.email {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+.email-link {
+	text-decoration: none;
+}
+
+.sticky-left {
+	position: fixed;
+	left: 55px;
+	bottom: 0px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	justify-content: center;
+	align-items: center;
+	animation-name: icon;
+	animation-duration: 1.5s;
+	animation-iteration-count: 1;
+}
+
+.sticky-right {
+	writing-mode: vertical-rl;
+	position: fixed;
+	right: 55px;
+	bottom: 0px;
+	animation-name: email;
+	animation-duration: 1.5s;
+	animation-iteration-count: 1;
+}
+
+
+@keyframes icon {
+	0% {
+		bottom: -120px;
+	}
+	100% {
+		bottom: 0px;
+	}
+}
+@keyframes email {
+	0% {
+		bottom: -200px;
+	}
+	100% {
+		bottom: 0px;
+	}
+}
+
+
+@media only screen and (max-width: 992px) {
+
+	.sticky-left{display: none !important; }
+	.sticky-right{display: none !important;}
+}

@@ -11,7 +11,7 @@ import { useEffect } from "react";
 function Projects() {
 
     useEffect(()=>{
-    window.scrollTo(0,0);
+    window.scroll(0,0);
     })
 
 var web = webSites[2].data;
@@ -27,7 +27,7 @@ var web = webSites[2].data;
     <div className="col">
 
    
-<h3 style={{color: "#ccd6f6"}} className="text-center"> All Projects</h3>
+<h3  className="text-center section_heading_color"> All Projects</h3>
 </div>
 </div>
 

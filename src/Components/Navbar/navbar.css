@@ -12,7 +12,6 @@
 }
 
 .hamburger div{
-    background-color: #fc6759;
     height: 2px;
     border-radius: 10px;
     transition: 0.15s ease-in-out;
@@ -26,8 +25,9 @@
 
 
 
-.navbar-nav.open{
-    background-color: #151f60;
+.open .navbar-nav{
+
+    background: var(--background);
     position: fixed;
     display: flex !important;
     align-items: center;
@@ -42,12 +42,12 @@
 
 }
 
-.navbar-nav.open a{
+.open .navbar-nav a{
     font-size: 1.5rem;
 }
 
 
-.navbar-nav.open span{
+.open .navbar-nav span{
     display: none;
 }
 

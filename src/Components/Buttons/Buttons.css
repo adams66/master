@@ -1,7 +1,11 @@
-.btn-theme{
-    border: 2px solid #fc6759 !important;
-    color: #fc6759 !important;
+
+
+
+.btn:hover{
+    color: var(--button_button_color) !important;
+    border: var(--button_border_color) !important;
 }
+
 
 .p-custom{
     padding: 10px 20px!important;
