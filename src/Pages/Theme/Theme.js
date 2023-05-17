@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Container from "../../Components/Container/Container";
 import ThemeJson from "../../key/theme.json";
 import Particles from "../../Components/Particles/Particles";
+import "./theme.css";
 
 
 
@@ -82,7 +83,7 @@ function selectTheme(event){
 
 
 <div style={{position:"fixed", left:"20px", top:"50%", cursor:"pointer"}}>
-<i onClick={clickDown} class="ri-arrow-left-circle-line footerIcons icon-size"></i>
+<i onClick={clickDown} class="ri-arrow-left-circle-line footerIcons rotate_icon"></i>
 
 </div>
 
@@ -91,7 +92,7 @@ function selectTheme(event){
 </div>
 
 <div style={{position:"fixed", right:"20px", top:"50%", cursor: "pointer"}}>
-<i onClick={clickUp} class="ri-arrow-right-circle-line footerIcons icon-size"></i>
+<i onClick={clickUp} class="ri-arrow-right-circle-line footerIcons rotate_icon"></i>
 </div>
 
 

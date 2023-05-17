@@ -15,6 +15,7 @@ function ThemeSet(props) {
 
     switch(getTheme){
         case "Pizza Planet":
+        document.querySelector('meta[name="theme-color"]').setAttribute('content', ThemeColors.theme[0].colors.background);
         cssVariable("--background",ThemeColors.theme[0].colors.background);
         cssVariable("--logo_color",ThemeColors.theme[0].colors.logo_color);
         cssVariable("--hamburger_color",ThemeColors.theme[0].colors.hamburger_color);
@@ -42,6 +43,7 @@ function ThemeSet(props) {
         
         break;
         case "Oreo":
+            document.querySelector('meta[name="theme-color"]').setAttribute('content', ThemeColors.theme[1].colors.background);
             cssVariable("--background",ThemeColors.theme[1].colors.background);
             cssVariable("--logo_color",ThemeColors.theme[1].colors.logo_color);
             cssVariable("--hamburger_color",ThemeColors.theme[1].colors.hamburger_color);
@@ -69,8 +71,8 @@ function ThemeSet(props) {
             cssVariable("--scroll_color",ThemeColors.theme[1].colors.scroll_color);
         
         break;
-
         case "Sour Patch":
+            document.querySelector('meta[name="theme-color"]').setAttribute('content', ThemeColors.theme[2].colors.background);
             cssVariable("--background",ThemeColors.theme[2].colors.background);
             cssVariable("--logo_color",ThemeColors.theme[2].colors.logo_color);
             cssVariable("--hamburger_color",ThemeColors.theme[2].colors.hamburger_color);
