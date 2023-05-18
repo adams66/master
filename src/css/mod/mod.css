@@ -37,7 +37,7 @@
 .logo_color{fill: var(--logo_color);                                 }
 .hamburger_color{background-color: var(--hamburger_color);           }
 .link_number_color{color: var(--link_number_color);                  }
-.link_color{color: var(--link_color);                                }
+.link_color{color: var(--link_color) !important;                     }
 .button_background_color{background:var(--button_background_color);  }
 .button_button_color{color:var(--button_button_color);               }
 .button_border_color{border: var(--button_border_color);             }

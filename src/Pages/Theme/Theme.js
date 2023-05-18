@@ -30,7 +30,7 @@ const dataImage = ThemeJson.theme[count].name;
 
     // fetch("https://homebase.dal-10.com/", requestOptions)
     // .then(response => response.json())
-    // .then(result => console.log(result.Peter))
+    // .then(result => setName(result.Peter))
     // .catch(error => console.log('error', error));
 
 
