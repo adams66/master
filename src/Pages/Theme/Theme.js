@@ -13,57 +13,14 @@ import "./theme.css";
 function Theme() {
  const [count,setCount] = useState(0);
  const image = ThemeJson.theme[count].image;
-const dataImage = ThemeJson.theme[count].name;
+ const dataImage = ThemeJson.theme[count].name;
  const themeCount = ThemeJson.theme.length -1;
- console.log(themeCount);
 
-
-
-
- 
-
- useEffect(()=>{
-    // var requestOptions = {
-    //     method: 'GET',
-    //     redirect: 'follow'
-    //   };
-
-    // fetch("https://homebase.dal-10.com/", requestOptions)
-    // .then(response => response.json())
-    // .then(result => setName(result.Peter))
-    // .catch(error => console.log('error', error));
-
-
- },[])
-
-
-
-
-
-  
-
-
- function clickDown(){
-
-    if(count > 0){
-        setCount(count - 1);
-
-    }
-    else{
-        console.log("min");
-    }
- }
+ function clickDown(){if(count > 0){setCount(count - 1);}}
 
 
 function clickUp(){
-    if(count < themeCount){
-        setCount(count + 1);
-
-    }
-
-    else{
-        console.log("Maxed Out")
-    }
+if(count < themeCount){ setCount(count + 1);}
 }
 
 

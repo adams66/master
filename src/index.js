@@ -14,17 +14,9 @@ import ThemeSet from './ThemeSet/ThemeSet';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 var theme = localStorage.getItem("dal-theme");
 
-console.log(theme);
-
-
-
 
 if(theme !== null && theme !== ""){
-
-
-
   root.render(
-
     <ThemeSet>
       <BrowserRouter>
         <Routes>

@@ -1,7 +1,7 @@
 function Container(props) {
     return ( 
 
-        <div className="container p-4 p-md-0">
+        <div className="container p-4">
                 {props.children}
 </div>
 

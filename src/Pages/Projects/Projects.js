@@ -19,7 +19,7 @@ var web = webSites[2].data;
     return ( 
         <div>
         <NavbarProjects /> 
-    <Container >``
+    <Container >
        
 <div>
 
