@@ -3,6 +3,7 @@
 
 :root{
     --background:#151f60;
+    --arrow: #fc6759;
     --logo_color:#fc6759;
     --hamburger_color: #fc6759;
     --link_number_color: #fc6759;
@@ -34,6 +35,7 @@
 }
 
 .background{                                                         }
+.arrow{color:var(--arrow);                                           }
 .logo_color{fill: var(--logo_color);                                 }
 .hamburger_color{background-color: var(--hamburger_color);           }
 .link_number_color{color: var(--link_number_color);                  }

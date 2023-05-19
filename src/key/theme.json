@@ -6,6 +6,7 @@
             "image": "pizza.png",
             "colors":{
                 "background":"#151f60",
+                "arrow":"#fc6759",
                 "logo_color":"#fc6759",
                 "hamburger_color": "#fc6759",
                 "link_number_color": "#fc6759",
@@ -37,6 +38,7 @@
             "image": "oreo.png",
             "colors":{
                 "background":"#104491",
+                "arrow":"white",
                 "logo_color":"white",
                 "hamburger_color": "white",
                 "link_number_color": "#7cc6f2",
@@ -68,7 +70,8 @@
             "name": "Sour Patch",
             "image": "sour.png",
             "colors":{
-                "background":"radial-gradient(circle, #f2e207, #d6d800, #bbcd00, #a1c200, #87b700)",
+                "background":"#c6d101",
+                "arrow":"#138bde",
                 "logo_color":"#138bde",
                 "hamburger_color": "#138bde",
                 "link_number_color": "#dc1920",
