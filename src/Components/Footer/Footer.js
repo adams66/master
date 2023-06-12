@@ -11,7 +11,7 @@ function Footer() {
 
 
     return (
-        <div className="row">
+        <div className="row footer_background_color p-1 rounded">
             <div className="col">
             <div className="social sticky-left flex">
            

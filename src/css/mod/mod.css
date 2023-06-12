@@ -4,6 +4,7 @@
 :root{
     --background:#151f60;
     --arrow: #fc6759;
+    --navbar_background:transparent;
     --logo_color:#fc6759;
     --hamburger_color: #fc6759;
     --link_number_color: #fc6759;
@@ -25,6 +26,7 @@
     --footer_icon_color:#ccd6f6;
     --footer_email_color:#ccd6f6;
     --footer_line_color:2px solid #fc6759;
+    --footer_background_color: transparent;
     --footer_copyright_color:#ccd6f6;
     --particle:#55f7f7;
     --scroll_color: #fc6759
@@ -34,31 +36,33 @@
 
 }
 
-.background{                                                         }
-.arrow{color:var(--arrow);                                           }
-.logo_color{fill: var(--logo_color);                                 }
-.hamburger_color{background-color: var(--hamburger_color);           }
-.link_number_color{color: var(--link_number_color);                  }
-.link_color{color: var(--link_color) !important;                     }
-.button_background_color{background:var(--button_background_color);  }
-.button_button_color{color:var(--button_button_color);               }
-.button_border_color{border: var(--button_border_color);             }
-.intro_hi_color{color: var(--intro_hi_color);                        }
-.my_name_color{color: var(--my_name_color);                          }
-.slogan_color{color:var(--slogan_color)                              }
-.paragraph_color{color: var(--paragraph_color) !important;           }
-.section_heading_color{color: var(--section_heading_color);          }
-.section_number_color{color: var(--section_number_color);            }
-.card_border_color{border: var(--card_border_color);                 }
-.card_folder_color{color: var(--card_folder_color);                  }
-.card_title_color{color: var(--card_title_color);                    }
-.card_nav_icon_color{color: var(--card_nav_icon_color);              }
-.card_technology_color{color: var(--card_technology_color);          }
-.footer_icon_color{color: var(--footer_icon_color);                  }
-.footer_email_color{color:var(--footer_email_color)                  }
-.footer_line_color{border-left: var(--footer_line_color);            }
-.footer_copyright_color{color: var(--footer_copyright_color);        }
-.particle{                                                           }
+.background{                                                                    }
+.arrow{color:var(--arrow);                                                      }
+.navbar_background{background-color: var(--navbar_background) !important;       }
+.logo_color{fill: var(--logo_color);                                            }
+.hamburger_color{background-color: var(--hamburger_color);                      }
+.link_number_color{color: var(--link_number_color);                             }
+.link_color{color: var(--link_color) !important;                                }
+.button_background_color{background:var(--button_background_color);             }
+.button_button_color{color:var(--button_button_color);                          }
+.button_border_color{border: var(--button_border_color);                        }
+.intro_hi_color{color: var(--intro_hi_color);                                   }
+.my_name_color{color: var(--my_name_color);                                     }
+.slogan_color{color:var(--slogan_color)                                         }
+.paragraph_color{color: var(--paragraph_color) !important;                      }
+.section_heading_color{color: var(--section_heading_color);                     }
+.section_number_color{color: var(--section_number_color);                       }
+.card_border_color{border: var(--card_border_color);                            }
+.card_folder_color{color: var(--card_folder_color);                             }
+.card_title_color{color: var(--card_title_color);                               }
+.card_nav_icon_color{color: var(--card_nav_icon_color);                         }
+.card_technology_color{color: var(--card_technology_color);                     }
+.footer_icon_color{color: var(--footer_icon_color);                             }
+.footer_email_color{color:var(--footer_email_color)                             }
+.footer_line_color{border-left: var(--footer_line_color);                       }
+.footer_background_color{background-color: var(--footer_background_color);      }
+.footer_copyright_color{color: var(--footer_copyright_color);                   }
+.particle{                                                                      }
 /* width */
 ::-webkit-scrollbar {width: 5px;}
 /* Track */

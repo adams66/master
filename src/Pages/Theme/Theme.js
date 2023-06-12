@@ -35,28 +35,38 @@ function Theme() {
 	}
 
 
-    // switch(count){
-    //     case 0:
-    //     document.querySelector('meta[name="theme-color"]').setAttribute('content', ThemeJson.theme[0].colors.background);
-    //     cssVariable("--background",ThemeJson.theme[0].colors.background);
-    //     cssVariable("--arrow",ThemeJson.theme[0].colors.arrow);
-
+    switch(count){
+        case 0:
+        document.querySelector('meta[name="theme-color"]').setAttribute('content', ThemeJson.theme[0].colors.background);
+        cssVariable("--background",ThemeJson.theme[0].colors.background);
+        cssVariable("--arrow",ThemeJson.theme[0].colors.arrow);
+		cssVariable("--particle",ThemeJson.theme[0].colors.particle);
         
-    //     break;
-    //     case 1:
-    //         document.querySelector('meta[name="theme-color"]').setAttribute('content', ThemeJson.theme[1].colors.background);
-    //         cssVariable("--background",ThemeJson.theme[1].colors.background);
-    //         cssVariable("--arrow",ThemeJson.theme[1].colors.arrow);
-
+        break;
+        case 1:
+            document.querySelector('meta[name="theme-color"]').setAttribute('content', ThemeJson.theme[1].colors.background);
+            cssVariable("--background",ThemeJson.theme[1].colors.background);
+            cssVariable("--arrow",ThemeJson.theme[1].colors.arrow);
+			cssVariable("--particle",ThemeJson.theme[1].colors.particle);
         
-    //     break;
-    //     case 2:
-    //         document.querySelector('meta[name="theme-color"]').setAttribute('content', ThemeJson.theme[2].colors.background);
-    //         cssVariable("--background",ThemeJson.theme[2].colors.background);
-    //         cssVariable("--arrow",ThemeJson.theme[2].colors.arrow);
-    //     break;
+        break;
+        case 2:
+            document.querySelector('meta[name="theme-color"]').setAttribute('content', ThemeJson.theme[2].colors.background);
+            cssVariable("--background",ThemeJson.theme[2].colors.background);
+            cssVariable("--arrow",ThemeJson.theme[2].colors.arrow);
+			cssVariable("--particle",ThemeJson.theme[2].colors.particle);
 
-    // }
+        break;
+
+		case 3:
+            document.querySelector('meta[name="theme-color"]').setAttribute('content', ThemeJson.theme[3].colors.background);
+            cssVariable("--background",ThemeJson.theme[3].colors.background);
+            cssVariable("--arrow",ThemeJson.theme[3].colors.arrow);
+			cssVariable("--particle",ThemeJson.theme[3].colors.particle);
+
+        break;
+
+    }
 
 
 
@@ -82,7 +92,7 @@ function Theme() {
 							style={{
 								cursor: 'pointer',
 								width: '100%',
-								maxWidth: '75%',
+								maxWidth: '70%',
 								marginLeft: 'auto',
 								marginRight: 'auto',
 								display: 'block'

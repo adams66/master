@@ -11,8 +11,21 @@ import './icons/remixicon.css';
 import ThemeSet from './ThemeSet/ThemeSet';
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 var theme = localStorage.getItem("dal-theme");
+
+var requestOptions = {
+  method: 'GET',
+  redirect: 'follow'
+};
+
+fetch("https://homebase.dal-10.com/", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
+
+
 
 
 if(theme !== null && theme !== ""){

@@ -34,7 +34,7 @@ function NavbarProjects() {
 
 
 	return (
-		<nav className="navbar">
+		<nav className="navbar navbar_background p-4">
 			<div className="container-fluid">
 				<a className="navbar-brand m-0 p-0" href="/">
 					<svg className="logo_color" width="60px" xmlns="http://www.w3.org/2000/svg" viewBox="4 2 468 231">

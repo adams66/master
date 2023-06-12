@@ -1,11 +1,8 @@
-
-
-
 .btn:hover{
+    background-color: var(--button_background_color) !important;
     color: var(--button_button_color) !important;
     border: var(--button_border_color) !important;
 }
-
 
 .p-custom{
     padding: 10px 20px!important;

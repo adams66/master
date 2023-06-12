@@ -42,7 +42,7 @@ if(menu == "open"){
 
 
 	return (
-		<nav className={"navbar position-absolute w-100 " + menu}>
+		<nav className={"navbar position-absolute w-100 navbar_background p-3" + menu}>
 			<div className="container-fluid">
 				<a className="navbar-brand m-0 p-0" href="/">
 					<svg className="logo_color" width="60px" xmlns="http://www.w3.org/2000/svg" viewBox="4 2 468 231">
@@ -55,19 +55,19 @@ if(menu == "open"){
 
 
 				<ul className="navbar-nav d-none d-xl-flex flex-row gap-5">
-      <li className="nav-item">
+      <li className="nav-item d-flex justify-content-center align-items-center">
         <a onClick={closeMenu} className="nav-link link_color " href="#about"><span className="link_number_color fw-bold">1. </span>About</a>
       </li>
 
-	  <li className="nav-item">
+	  <li className="nav-item d-flex justify-content-center align-items-center">
         <a onClick={closeMenu}  className="nav-link link_color" href="#projects"><span className="link_number_color fw-bold" >2. </span>Projects</a>
       </li>
 
-	  <li className="nav-item">
+	  <li className="nav-item d-flex justify-content-center align-items-center">
         <a onClick={closeMenu}  className="nav-link link_color" href="#contact"><span className="link_number_color fw-bold">3. </span>Contact</a>
       </li>
 
-	  <li className="nav-item">
+	  <li className="nav-item d-flex justify-content-center align-items-center">
 			<a   href="./Resume.pdf" className="btn button_button_color button_border_color button_background_color p-custom fw-bold">Resume</a>
       </li>
 

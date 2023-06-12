@@ -7,6 +7,7 @@
             "colors":{
                 "background":"#151f60",
                 "arrow":"#fc6759",
+                "navbar_background":"transparent",
                 "logo_color":"#fc6759",
                 "hamburger_color": "#fc6759",
                 "link_number_color": "#fc6759",
@@ -28,6 +29,7 @@
                 "footer_icon_color":"#ccd6f6",
                 "footer_email_color":"#ccd6f6",
                 "footer_line_color":"2px solid #fc6759",
+                "footer_background_color":"transparent",
                 "footer_copyright_color":"white",
                 "particle":"#08a2ef"
             }
@@ -39,6 +41,7 @@
             "colors":{
                 "background":"#104491",
                 "arrow":"white",
+                "navbar_background":"transparent",
                 "logo_color":"white",
                 "hamburger_color": "white",
                 "link_number_color": "#7cc6f2",
@@ -60,6 +63,7 @@
                 "footer_icon_color":"white",
                 "footer_email_color":"#ccd6f6",
                 "footer_line_color":"2px solid #7cc6f2",
+                "footer_background_color":"transparent",
                 "footer_copyright_color":"white",
                 "particle":"#7cc6f2",
                 "scroll_color":"#7cc6f2"
@@ -72,6 +76,7 @@
             "colors":{
                 "background":"#c6d101",
                 "arrow":"#138bde",
+                "navbar_background":"transparent",
                 "logo_color":"#138bde",
                 "hamburger_color": "#138bde",
                 "link_number_color": "#dc1920",
@@ -93,9 +98,47 @@
                 "footer_icon_color":"#dc1920",
                 "footer_email_color":"black",
                 "footer_line_color":"2px solid #d81216",
+                "footer_background_color":"transparent",
                 "footer_copyright_color":"black",
-                "particle":"#7bbd1d"
+                "particle":"#7bbd1d",
+                "scroll_color":"#7cc6f2"
             }
+        },
+    
+            {
+                "id": "4",
+                "name": "Wildcat",
+                "image": "wildcat.png",
+                "colors":{
+                    "background":"#DADBDD",
+                    "arrow":"#512888",
+                    "navbar_background":"#512888",
+                    "logo_color":"white",
+                    "hamburger_color": "white",
+                    "link_number_color": "white",
+                    "link_color": "white",
+                    "button_background_color":"#512888",
+                    "button_button_color": "white",
+                    "button_border_color": "2px solid white",
+                    "intro_hi_color": "#512888",
+                    "my_name_color":"black",
+                    "slogan_color":"#512888",
+                    "paragraph_color": "black",
+                    "section_heading_color":"black",
+                    "section_number_color":"#512888",
+                    "card_border_color":"2px solid #512888",
+                    "card_folder_color":"#512888",
+                    "card_title_color":"black",
+                    "card_nav_icon_color":"#512888",
+                    "card_technology_color":"white",
+                    "footer_icon_color":"#512888",
+                    "footer_email_color":"black",
+                    "footer_line_color":"2px solid #512888",
+                    "footer_background_color":"#512888",
+                    "footer_copyright_color":"white",
+                    "particle":"#512888",
+                    "scroll_color":"#512888"
+                }
         }
     ]
 }
