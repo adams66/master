@@ -14,9 +14,9 @@ function Card(props) {
 			</div>
 			<div>
 				<ul className="d-flex gap-3 p-0 list-group-horizontal ">
-					<li className="list-group-item card_technology_color">{props.tech1}</li>
-					<li className="list-group-item card_technology_color">{props.tech2}</li>
-					<li className="list-group-item card_technology_color">{props.tech3}</li>
+					<li className="list-group-item card_technology_color fw-bolder">{props.tech1}</li>
+					<li className="list-group-item card_technology_color fw-bolder">{props.tech2}</li>
+					<li className="list-group-item card_technology_color fw-bolder">{props.tech3}</li>
 				</ul>
 			</div>
 		</div>

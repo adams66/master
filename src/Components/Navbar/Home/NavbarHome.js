@@ -42,7 +42,7 @@ if(menu == "open"){
 
 
 	return (
-		<nav className={"navbar position-absolute w-100 navbar_background p-3" + menu}>
+		<nav className={"navbar position-absolute w-100 navbar_background p-3 "+ menu}>
 			<div className="container-fluid">
 				<a className="navbar-brand m-0 p-0" href="/">
 					<svg className="logo_color" width="60px" xmlns="http://www.w3.org/2000/svg" viewBox="4 2 468 231">

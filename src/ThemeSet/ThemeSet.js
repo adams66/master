@@ -118,7 +118,7 @@ useState(()=>{
 
 
         case "Wildcat":
-            document.querySelector('meta[name="theme-color"]').setAttribute('content', ThemeColors.theme[3].colors.background);
+            document.querySelector('meta[name="theme-color"]').setAttribute('content', ThemeColors.theme[3].colors.navbar_background);
             cssVariable("--background",ThemeColors.theme[3].colors.background);
             cssVariable("--navbar_background",ThemeColors.theme[3].colors.navbar_background);
             cssVariable("--logo_color",ThemeColors.theme[3].colors.logo_color);

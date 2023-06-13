@@ -5,6 +5,7 @@
             "name": "Pizza Planet",
             "image": "pizza.png",
             "colors":{
+                "choose_theme":"#fc6759",
                 "background":"#151f60",
                 "arrow":"#fc6759",
                 "navbar_background":"transparent",
@@ -39,6 +40,7 @@
             "name": "Oreo",
             "image": "oreo.png",
             "colors":{
+                "choose_theme":"white",
                 "background":"#104491",
                 "arrow":"white",
                 "navbar_background":"transparent",
@@ -74,6 +76,7 @@
             "name": "Sour Patch",
             "image": "sour.png",
             "colors":{
+                "choose_theme":"#138bde",
                 "background":"#c6d101",
                 "arrow":"#138bde",
                 "navbar_background":"transparent",
@@ -110,6 +113,7 @@
                 "name": "Wildcat",
                 "image": "wildcat.png",
                 "colors":{
+                    "choose_theme":"black",
                     "background":"#DADBDD",
                     "arrow":"#512888",
                     "navbar_background":"#512888",
@@ -119,7 +123,7 @@
                     "link_color": "white",
                     "button_background_color":"#512888",
                     "button_button_color": "white",
-                    "button_border_color": "2px solid white",
+                    "button_border_color": "2px solid #512888",
                     "intro_hi_color": "#512888",
                     "my_name_color":"black",
                     "slogan_color":"#512888",
@@ -130,7 +134,7 @@
                     "card_folder_color":"#512888",
                     "card_title_color":"black",
                     "card_nav_icon_color":"#512888",
-                    "card_technology_color":"white",
+                    "card_technology_color":"black",
                     "footer_icon_color":"#512888",
                     "footer_email_color":"black",
                     "footer_line_color":"2px solid #512888",

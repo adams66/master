@@ -2,6 +2,7 @@
 
 
 :root{
+    --choose_theme: #9ecb39;
     --background:#151f60;
     --arrow: #fc6759;
     --navbar_background:transparent;
@@ -35,7 +36,7 @@
 
 
 }
-
+.choose_theme{color: var(--choose_theme) !important;}
 .background{                                                                    }
 .arrow{color:var(--arrow);                                                      }
 .navbar_background{background-color: var(--navbar_background) !important;       }
@@ -77,6 +78,8 @@ body{
     background: var(--background);
     font-family: "Open Sans", sans-serif;
     color: #fff;
+    height: 100vh;
+
 }
 
 .container{
@@ -92,11 +95,16 @@ h3{
 
 
 
+h1{ font-size: 3.7rem;}
 
-h1{
-    font-size: 3.7rem;
+
+*{
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
-
 
 
 
