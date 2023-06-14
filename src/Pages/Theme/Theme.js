@@ -27,7 +27,7 @@ function Theme() {
 		}
 	}
 
-	function selectTheme(event) {
+	async function selectTheme(event) {
 		var themeSelect = event.target.getAttribute('data-image');
 
 		localStorage.setItem('dal-theme', themeSelect);

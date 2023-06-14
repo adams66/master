@@ -1,19 +1,21 @@
 .icon-size {
 	font-size: 35px;
+	transition: 0.2s ease;
+
 }
 
-
+.icon-size:hover{
+transform: scale(0.85) !important;
+}
 
 .number-size {
 	font-size: 1.4rem;
 	font-weight: bolder;
 }
 .footerLine{
-
 height: 100px;
 left: 50%;
 width: 4px;
-
 }
 
 .resetButton{

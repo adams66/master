@@ -1,0 +1,13 @@
+.mainSection{
+    height: 100vh;
+}
+
+
+@media screen and  (max-width: 576px) { 
+
+.mainSection{
+    height: 65vh;
+}
+    
+    
+     }

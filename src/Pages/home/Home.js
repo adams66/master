@@ -1,3 +1,4 @@
+import "./home.css";
 import { useEffect } from 'react';
 import Container from '../../Components/Container/Container';
 import NavbarHome from '../../Components/Navbar/Home/NavbarHome';
@@ -17,7 +18,7 @@ function Home() {
 		<div>
 			<NavbarHome />
 			<Container>
-				<div style={{ height: '100vh' }} className="row p-2 d-flex ">
+				<div className="row p-2 d-flex mainSection">
 					<div className="col-12 d-flex flex-column justify-content-center ">
 						<h6 className="mb-4 intro_hi_color" style={{ fontWeight: 'bolder' }}>
 							Hi, my name is
