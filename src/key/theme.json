@@ -143,6 +143,42 @@
                     "particle":"#512888",
                     "scroll_color":"#512888"
                 }
-        }
+        },
+        {
+            "id": "5",
+            "name": "chiefs",
+            "image": "chiefs.png",
+            "colors":{
+                "choose_theme":"black",
+                "background":"#eee",
+                "arrow":"#E31836",
+                "navbar_background":"#E31836",
+                "logo_color":"white",
+                "hamburger_color": "white",
+                "link_number_color": "white",
+                "link_color": "white",
+                "button_background_color":"#fec212",
+                "button_button_color": "black",
+                "button_border_color": "2px solid #fec212",
+                "intro_hi_color": "#E31836",
+                "my_name_color":"black",
+                "slogan_color":"#E31836",
+                "paragraph_color": "black",
+                "section_heading_color":"black",
+                "section_number_color":"black",
+                "card_border_color":"2px solid #E31836",
+                "card_folder_color":"#E31836",
+                "card_title_color":"black",
+                "card_nav_icon_color":"black",
+                "card_technology_color":"black",
+                "footer_icon_color":"#000",
+                "footer_email_color":"black",
+                "footer_line_color":"2px solid #fec212",
+                "footer_background_color":"#E31836",
+                "footer_copyright_color":"white",
+                "particle":"#E31836",
+                "scroll_color":"#E31836"
+            }
+    }
     ]
 }

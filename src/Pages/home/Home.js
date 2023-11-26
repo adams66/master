@@ -11,6 +11,7 @@ import webSites from '../../key/projects.json';
 function Home() {
 	var web = webSites[2].data.slice(0, 3);
 	useEffect(() => {
+
 		window.scrollTo(0, 0);
 	});
 
@@ -115,10 +116,10 @@ function Home() {
 					</div>
 				</div>
 
-				<div className="row mb-5">
+				<div  className="row mb-5">
 					<div className="col-12">
 						<div className="d-flex justify-content-center">
-							<Buttons text="Email Me" />
+							<Buttons url="mailto:dalton@dal-10.com"  text="Email Me" />
 						</div>
 					</div>
 				</div>

@@ -19,11 +19,19 @@ function Theme() {
 		if (count > 0) {
 			setCount(count - 1);
 		}
+
+		if(count ==0){
+			setCount(themeCount)
+		}
 	}
 
 	function clickUp() {
 		if (count < themeCount) {
 			setCount(count + 1);
+		}
+
+		if (count == themeCount) {
+			setCount(0);
 		}
 	}
 
@@ -67,6 +75,15 @@ function Theme() {
             cssVariable("--arrow",ThemeJson.theme[3].colors.arrow);
 			cssVariable("--particle",ThemeJson.theme[3].colors.particle);
 			cssVariable("--choose_theme",ThemeJson.theme[3].colors.choose_theme);
+
+        break;
+
+		case 4:
+            document.querySelector('meta[name="theme-color"]').setAttribute('content', ThemeJson.theme[4].colors.navbar_background);
+            cssVariable("--background",ThemeJson.theme[4].colors.background);
+            cssVariable("--arrow",ThemeJson.theme[4].colors.arrow);
+			cssVariable("--particle",ThemeJson.theme[4].colors.particle);
+			cssVariable("--choose_theme",ThemeJson.theme[4].colors.choose_theme);
 
         break;
 

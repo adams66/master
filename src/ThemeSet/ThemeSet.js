@@ -149,6 +149,38 @@ useState(()=>{
 
         break;
 
+        case "chiefs":
+            document.querySelector('meta[name="theme-color"]').setAttribute('content', ThemeColors.theme[4].colors.navbar_background);
+            cssVariable("--background",ThemeColors.theme[4].colors.background);
+            cssVariable("--navbar_background",ThemeColors.theme[4].colors.navbar_background);
+            cssVariable("--logo_color",ThemeColors.theme[4].colors.logo_color);
+            cssVariable("--hamburger_color",ThemeColors.theme[4].colors.hamburger_color);
+            cssVariable("--link_number_color",ThemeColors.theme[4].colors.link_number_color);
+            cssVariable("--link_color",ThemeColors.theme[4].colors.link_color);
+            cssVariable("--button_background_color",ThemeColors.theme[4].colors.button_background_color);
+            cssVariable("--button_button_color",ThemeColors.theme[4].colors.button_button_color);
+            cssVariable("--button_border_color",ThemeColors.theme[4].colors.button_border_color);
+            cssVariable("--intro_hi_color",ThemeColors.theme[4].colors.intro_hi_color);
+            cssVariable("--my_name_color",ThemeColors.theme[4].colors.my_name_color);
+            cssVariable("--slogan_color",ThemeColors.theme[4].colors.slogan_color);
+            cssVariable("--paragraph_color",ThemeColors.theme[4].colors.paragraph_color);
+            cssVariable("--section_heading_color",ThemeColors.theme[4].colors.section_heading_color);
+            cssVariable("--section_number_color",ThemeColors.theme[4].colors.section_number_color);
+            cssVariable("--card_border_color",ThemeColors.theme[4].colors.card_border_color);
+            cssVariable("--card_folder_color",ThemeColors.theme[4].colors.card_folder_color);
+            cssVariable("--card_nav_icon_color",ThemeColors.theme[4].colors.card_nav_icon_color);
+            cssVariable("--card_title_color",ThemeColors.theme[4].colors.card_title_color);
+            cssVariable("--card_technology_color",ThemeColors.theme[4].colors.card_technology_color);
+            cssVariable("--footer_icon_color",ThemeColors.theme[4].colors.footer_icon_color);
+            cssVariable("--footer_email_color",ThemeColors.theme[4].colors.footer_email_color);
+            cssVariable("--footer_line_color",ThemeColors.theme[4].colors.footer_line_color);
+            cssVariable("--footer_background_color",ThemeColors.theme[4].colors.footer_background_color);
+            cssVariable("--footer_copyright_color",ThemeColors.theme[4].colors.footer_copyright_color);
+            cssVariable("--particle",ThemeColors.theme[4].colors.particle);
+            cssVariable("--scroll_color",ThemeColors.theme[4].colors.scroll_color);
+
+            break;
+
 
 
 
